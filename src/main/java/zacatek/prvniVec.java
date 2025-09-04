@@ -11,6 +11,7 @@ public class prvniVec {
         File file = new File("vstup.txt");
         Scanner input = new Scanner(file);
         ArrayList<Integer> cisla = new ArrayList<>();
+        int n;
 
         while (input.hasNext()) {
             cisla.add(input.nextInt());
